@@ -1,0 +1,41 @@
+
+<div id="body">
+  <div class="header">
+    <img src="images/lawyers.jpg" alt="">
+
+  </div>
+  <div class="body">
+    <p>
+      </p>
+    <img src="images/hammer.png" alt="">
+
+      <p>
+      </p>
+  </div>
+          			<br><br><div id="content">
+          			<div>
+
+          				<h1>ADMINISTRADOR</h1>
+<div class="header">
+                  <h3><a href="/new %>" >Sube una descripción</a></h3><br>
+                  <div class="header">  <% blazons.forEach((blason) => { %>
+                              <div  id="item-INF" class="col-sm-4 home-item-box">
+                                <div class="item-info-wrapper">
+
+                                    <a href="/<%= blason.id %>">  <h2><strong><%= blason.name %></strong></h2></a>
+
+                                <p class="light-text"><%= blason.description %></p><br>
+                        <p><a href="/admin/<%= blason.id %>/edit">Editar</a> / <a href="/admin/<%= blason._id %>/delete">Eliminar</a></p>
+
+                                </div>
+                              </div>
+                              <%  }) %></div>
+
+                </div>
+          			</div>
+          		</div>
+
+
+          	</div>
+          </body>
+          </html>

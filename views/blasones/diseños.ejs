@@ -1,0 +1,34 @@
+
+<div id="body">
+  <div class="header">
+    <img src="images/lawyers.jpg" alt="">
+
+  </div>
+  <div class="body">
+    <p>
+      </p>
+    <img src="images/hammer.png" alt="">
+
+      <p>
+      </p>
+  </div>
+          			<br><br><div id="content">
+          			<div>
+
+          				<h1>Fernando Martínez Larrañaga</h1>
+
+                <div class="header">  <% blazons.forEach((blason) => { %>
+                            <div  id="item-INF" class="col-sm-4 home-item-box">
+                              <div class="item-info-wrapper">
+
+                                  <a href="/<%= blason.id %>">  <h2><strong><%= blason.name %></strong></h2></a>
+
+                              <p class="light-text"><%= blason.description %></p><br>
+                              <div class="blason2"><p> <img  src="<%= blason.pic_path %>" width=200px;/></p></div>
+
+                              </div>
+                            </div>
+                            <%  }) %></div>
+
+
+          				<br><br></div></div>
